@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.18.9
 
 RUN apk update && apk upgrade && apk add --no-cache \
     sqlite \
